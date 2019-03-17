@@ -1,0 +1,3 @@
+{
+"data":[{"database":"global_config","user":"postgres","password":"post","host":"172.31.0.200","port":"5432"}]
+}

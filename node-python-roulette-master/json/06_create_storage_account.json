@@ -1,0 +1,42 @@
+ [ {
+      "type": "select",
+      "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.subscriptions",
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "Location",
+      "name": "location",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+   {
+      "type": "select",
+      "label" : "Resource Group",
+      "name": "resgrp",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "input",
+      "label" : "Storage Account Name",
+      "name": "storagename",
+      "placeholder": "Storage Account Name"
+    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

@@ -1,0 +1,58 @@
+ [ {
+      "type": "select",
+      "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "location",
+      "name": "location",
+      "options": ["j","kfdk"],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+   {
+      "type": "select",
+      "label" : "resgrp",
+      "name": "resgrp",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "input",
+      "label" : "addr",
+      "name": "addr",
+      "placeholder": "Address"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "subnet_name",
+      "name": "subnet_name",
+      "placeholder": "SubnetName"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "vname",
+      "name": "vname",
+      "placeholder": "VnetName"
+    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

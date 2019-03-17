@@ -1,0 +1,49 @@
+ [ {
+      "type": "select",
+      "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.subscriptions",
+      "placeholder": "Select an option"
+    
+    }
+    ,
+   {
+      "type": "select",
+      "label" : "Resource Group",
+      "name": "resgrp",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "VNet Name",
+      "name": "vname",
+      "options": [],
+      "placeholder": "VnetName"   
+    }
+    ,
+    {
+      "type": "input",
+      "label" : "subnet_name",
+      "name": "Subnet Name",
+      "placeholder": "SubnetName"
+    
+   }
+   ,
+   {
+      "type": "input",
+      "label" : "addr",
+      "name": "Address",
+      "placeholder": "Address"
+    
+    }
+   , 
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

@@ -1,0 +1,87 @@
+ [ {
+      "type": "select",
+     "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.sunscriptions",
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+     "type": "select",
+     "label" : "Resource Group",
+     "name": "resgrp",
+     "options": [],
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+     "type": "select",
+     "label" : "Location",
+     "name": "location",
+     "options": [],
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "Network NIC Name",
+      "name": "nic",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "VM Size",
+      "name": "vmsize",
+      "options": [],
+      "placeholder": "VM Size"
+    
+    }
+   ,
+    {
+      "type": "select",
+      "label" : "OS Offer",
+      "name": "offer",
+      "options": [],
+      "placeholder": "offer"
+    
+    }
+   ,
+    {
+      "type": "select",
+      "label" : "OS publisher",
+      "name": "publisher",
+      "options": [],
+      "placeholder": "Publisher"
+    
+    }
+   ,
+    {
+      "type": "select",
+      "label" : "OS SKU",
+      "name": "sku",
+      "options": [],
+      "placeholder": "sku"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "VM Name",
+      "name": "name",
+      "placeholder": "Enter VM Name"
+    
+    }
+    ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

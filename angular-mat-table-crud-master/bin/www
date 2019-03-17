@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../server');
+var debug = require('debug')('mean-app:server');
+var http = require('http');
+

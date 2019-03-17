@@ -1,0 +1,33 @@
+ [ {
+      "type": "select",
+      "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.subscriptions",
+      "placeholder": "Select an option"
+    
+    }
+    ,
+   {
+      "type": "select",
+      "label" : "Location",
+      "name": "location",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "input",
+      "label" : "Resource Group Name",
+      "name": "name",
+      "placeholder": "Name"
+    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

@@ -1,0 +1,60 @@
+ [ {
+      "type": "select",
+      "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.subscriptions",
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "Location",
+      "name": "location",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+   {
+      "type": "select",
+      "label" : "Resource Group",
+      "name": "resgrp",
+      "options": [],
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "VNet_Name",
+      "name": "vname",
+      "options":[],
+      "placeholder": "vnet_name"
+    
+    }
+   ,
+    {
+      "type": "select",
+      "label" : "Subnet Name",
+      "name": "subnet_name",
+      "options":[],
+      "placeholder": "SubnetName"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "name",
+      "name": "Network Interface Name",
+      "placeholder": "name"
+    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

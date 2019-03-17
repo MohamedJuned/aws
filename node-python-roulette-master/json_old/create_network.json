@@ -1,0 +1,50 @@
+ [ {
+     "type": "select",
+     "label" : "Subscription_ID",
+     "name": "Subscription_ID",
+     "options": "this.subscriptions",
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+     "type": "select",
+     "label" : "location",
+     "name": "location",
+     "options": "this.locations",
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+     "type": "select",
+     "label" : "resgrp",
+     "name": "resgrp",
+     "options": ["ab"],
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+     "type": "input",
+     "label" : "vnet",
+     "name": "vnet",
+     "placeholder": "VnetName"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label": "name",
+      "name": "name",
+      "placeholder": "Name"
+    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

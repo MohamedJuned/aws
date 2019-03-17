@@ -1,0 +1,23 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.2",
+    "az-login": "^0.3.0",
+    "azure-common": "^0.9.20",
+    "azure-storage": "^2.10.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "haikunator": "^2.0.0",
+    "python-shell": "^0.4.0"
+  }
+}

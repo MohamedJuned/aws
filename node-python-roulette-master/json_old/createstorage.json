@@ -1,0 +1,34 @@
+
+ [ {
+      "type": "select",
+     "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.sunscriptions",
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+     "label" : "location",
+      "name": "location",
+      "options": "this.locations",
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "input",
+     "label" : "name",
+      "name": "name",
+     "placeholder": "Name"
+    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

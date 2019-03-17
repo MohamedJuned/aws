@@ -1,0 +1,114 @@
+ [ {
+      "type": "select",
+     "label" : "Subscription_ID",
+      "name": "Subscription_ID",
+      "options": "this.subscriptions",
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+     "label" : "location",
+      "name": "location",
+      "options":[],
+     "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "input",
+      "label" : "vmSize",
+      "name": "vmSize",
+      "placeholder": "VM Size"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "sku",
+      "name": "sku",
+      "placeholder": "SKU"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "publisher",
+      "name": "publisher",
+      "placeholder": "Publisher"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "offer",
+      "name": "offer",
+      "placeholder": "Offer"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "storage",
+      "name": "storage",
+      "placeholder": "Storage"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "usr",
+      "name": "usr",
+      "placeholder": "User"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "vmname",
+      "name": "vmname",
+      "placeholder": "VMName"
+    
+    }
+   ,
+    {
+      "type": "input",
+      "label" : "pas",
+      "name": "pas",
+      "placeholder": "Password"    
+    }
+   ,
+
+    {
+      "type": "select",
+      "label" : "resgrp",
+      "name": "resgrp",
+      "options": "this.resgrps",
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "select",
+      "label" : "net",
+      "name": "net",
+      "options": "this.nets",
+      "placeholder": "Select an option"
+    
+    }
+    ,
+    {
+      "type": "input",
+      "label" : "storagename",
+      "name": "storagename",
+      "placeholder": "StorageName"    
+    }
+   ,
+    {
+      "label": "Submit",
+      "name": "submit",
+      "type": "button"
+    }
+  
+  ]

@@ -1,0 +1,84 @@
+<div class="container">
+  <h3 mat-dialog-title>create Storage </h3>
+
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+
+      <div class="form">
+      <mat-form-field color="accent">
+          <mat-select placeholder="Subscription ID" [(ngModel)]="selectedsub" name="subscription" required>
+              <mat-option *ngFor="let subscription of subscriptions.sub" [value]="subscription">
+                {{subscriptions.sub}}
+              </mat-option>
+            </mat-select>
+      <!-- <input matInput #input class="form-control" placeholder="Subscription ID" [(ngModel)]="data.subscription_id" name="subscriptionid" required > -->
+      <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+       </mat-form-field>
+       </div>
+
+
+    <div class="form">
+      <mat-form-field color="accent">
+          <mat-select placeholder="Location" [(ngModel)]="selectedValue" name="location" required>
+              <mat-option *ngFor="let location of locations" [value]="location.value">
+                {{location.viewValue}}
+              </mat-option>
+            </mat-select>
+        <!-- <input matInput #input class="form-control" placeholder="Subscription ID" [(ngModel)]="data.subscription_id" name="subscriptionid" required >-->
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error> 
+      </mat-form-field>
+    </div>
+
+    <!--Textarea for demo purposes-->
+    <!-- <div class="form">
+      <mat-form-field color="accent">
+        <textarea matInput #input class="form-control" placeholder="Azure_Tenant_ID" [(ngModel)]="data.azure_tenant_id" name="azure_tenant_id" required ></textarea>
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div> -->
+
+    <!--Contains mat-hint for characters count and has maxLengt set-->
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput #inputstate class="form-control" placeholder="Storage Name" [(ngModel)]="data.storage" name="storage" maxlength="10" required >
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+        <mat-hint align="end">{{inputstate.value?.length || 0}}/10</mat-hint>
+      </mat-form-field>
+    </div>
+
+    <!-- <div class="form">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="Azure_Client_Secret_Key" [(ngModel)]="data.azure_Key" name="AZURE_CLIENT_SECRET" required >
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div> -->
+
+    <!-- <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Username" [(ngModel)]="data.username" name="Username">
+      </mat-form-field>
+    </div>
+
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Password" [(ngModel)]="data.password" name="Password">
+      </mat-form-field>
+    </div> -->
+
+    <!-- <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Created at" [(ngModel)]="data.created_at" name="created_at">
+      </mat-form-field>
+    </div>
+
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Updated at" [(ngModel)]="data.updated_at" name="updated_at">
+      </mat-form-field>
+    </div> -->
+
+    <div mat-dialog-actions>
+      <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="confirmAdd(selectedsub,selectedValue,data.storage)">Run</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">Cancel</button>
+    </div>
+  </form>
+</div>
